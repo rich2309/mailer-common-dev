@@ -6,7 +6,6 @@
  *
  * @category MailValidator
  * @package  Project\Mailer\Common\Validator
- * @author   Skora Vincent <vincent.skora9@etu.univ-lorraine.fr>
  * @author   García Ricardo <richgarcia459@gmail.com>
  * @license  http://www.gnu.org/copyleft/gpl.html GNU General Public License
  * @link     http://www.hashbangcode.com/
@@ -17,7 +16,6 @@ namespace Project\Mailer\Common\Validator;
  *
  * @category MailValidator
  * @package  Project\Mailer\Common\Validator
- * @author   Skora Vincent <vincent.skora9@etu.univ-lorraine.fr>
  * @author   García Ricardo <richgarcia459@gmail.com>
  * @license  http://www.gnu.org/copyleft/gpl.html GNU General Public License
  * @link     http://www.hashbangcode.com/

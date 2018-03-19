@@ -56,11 +56,11 @@ class MailTransformer
     public function transform(Mail $mail): array
     {
         return array(
-            "sender"      => $mail->getSender(),
-            "receivers"   => $mail->getRecipients(),
-            "object"      => $mail->getRecipients(),
-            "message"     => $mail->getMessage(),
-            "attachments" => $mail->getAttachments(),
+            "sender"       => $mail->getSender(),
+            "recipients"   => $mail->getRecipients(),
+            "subject"      => $mail->getSubject(),
+            "message"      => $mail->getMessage(),
+            "attachments"  => $mail->getAttachments()
         );
     }
 }
